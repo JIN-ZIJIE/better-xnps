@@ -7,11 +7,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Better XNPS</title>
 
-  
+  <!-- STYLESHEETS -->
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/font.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  <!-- STYLESHEETS -->
 </head>
 
 <body>
+  <main>
+    {% block content %}
 
+    {% endblock %}
+  </main>
+
+  <!-- JAVASCRIPT -->
+  <script src="{{ url_for('static', filename='js/bootstrap.bundle.js') }}" async></script>
+  <script src="{{ url_for('static', filename='js/script.js') }}" async></script>
+  <!-- JAVASCRIPT -->
 </body>
 
 </html>
