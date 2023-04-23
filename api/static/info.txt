@@ -1,1 +1,0 @@
-static files that contains images, files etc.
