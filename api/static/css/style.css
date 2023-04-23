@@ -1,3 +1,10 @@
 * {
   font-family: 'Lato', sans-serif;
 }
+
+.navbar-logo {
+  max-height: 75px;
+  max-width: 200px;
+  height: auto;
+  width: auto;
+}
